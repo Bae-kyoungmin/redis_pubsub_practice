@@ -40,16 +40,6 @@ public class Member {
 		this.addr = addr;
 	}
 	
-	public Member() {
-		super();
-	}
-	public Member(String id, String firstName, String lastName, Address addr) {
-		super();
-		this.id = id;
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.addr = addr;
-	}
 	@Override
 	public String toString() {
 		return "Member [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", addr=" + addr.toString() + "]";

@@ -26,14 +26,6 @@ public class Address {
 		this.etc = etc;
 	}
 	
-	public Address(String address, String etc) {
-		super();
-		this.address = address;
-		this.etc = etc;
-	}
-	public Address() {
-		super();
-	}
 	@Override
 	public String toString() {
 		return "Address [address=" + address + ", etc=" + etc + "]";
